@@ -1,0 +1,765 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css"
+			integrity="sha512-/VYneElp5u4puMaIp/4ibGxlTd2MV3kuUIroR3NSQjS2h9XKQNebRQiyyoQKeiGE9mRdjSCIZf9pb7AVJ8DhCg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="./assets//css/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="./assets/css/styles.css" />
+	</head>
+	<body class="common-front">
+		<header class="header" id="header">
+			<nav class="nav">
+				<div class="logo">
+					<img
+						src="assets/img/SLD-logo - SLD Education.jpg"
+						alt="My Passion Logo"
+                        style="height: 80px; object-fit: contain;"
+					/>
+				</div>
+				<div class="nav__menu" id="nav-menu">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="./index.html" class="nav__link">Home</a>
+						</li>
+						<li class="nav__item">
+							<button id="product_link">
+								Courses
+								<i class="ri-arrow-drop-down-line" class="dropdown_icon"></i>
+							</button>
+							<ul class="sub__menu">
+								<li>
+									<a href="./classses.html" class="nav__link">Courses</a>
+								</li>
+								<li>
+									<a href="./class_details.html" class="nav__link">Course Details</a>
+								</li>
+							</ul>
+						</li>
+						
+						<li class="nav__item">
+							<a href="./about.html" class="nav__link">About</a>
+						</li>
+						<li class="nav__item">
+							<button id="customize">
+								Blogs
+								<i class="ri-arrow-drop-down-line" class="dropdown_icon"></i>
+							</button>
+							<ul class="sub__menu">
+								<li>
+									<a href="./blogs.html" class="nav__link">Blogs</a>
+								</li>
+								<li><a href="./blog_details.html" class="nav__link">Blog Details</a></li>
+							</ul>
+						</li>
+						<li class="nav__item">
+							<button id="customize">
+								Extra-curriculum 
+								<i class="ri-arrow-drop-down-line" class="dropdown_icon"></i>
+							</button>
+							<ul class="sub__menu">
+								<li>
+									<a href="./gallery.html" class="nav__link">Activities</a>
+								</li>
+								<li><a href="./gallery.html" class="nav__link">Reviews</a></li>
+								<li><a href="./gallery.html" class="nav__link">Gallery</a></li>
+							</ul>
+						</li>
+						<li class="nav__item">
+							<a href="./contact.html" class="nav__link">Contact</a>
+						</li>
+					</ul>
+
+					<!-- Close Button -->
+					<div class="nav__close" id="nav-close">
+						<i class="ri-close-line"></i>
+					</div>
+				</div>
+				<!-- Toggle Button -->
+				<div class="logo__wrapper">
+					
+					<div class="nav__toggle" id="nav-toggle">
+						<i class="ri-menu-fill"></i>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!-- Slider hero container -->
+		<section class="swiper swiper-hero">
+			<div class="hero_before">
+				<img src="./assets/img/header-after.png" alt="" />
+			</div>
+			<!-- Additional required wrapper -->
+			<div class="swiper-wrapper">
+				
+				<!-- Slides -->
+				<div
+					class="swiper-slide"
+					style="background-image: url('./assets/img/classroom1.jpg')"
+				></div>
+				<div
+					class="swiper-slide"
+					style="background-image: url('./assets/img/classroom2.jpg')"
+				></div>
+				<div
+					class="swiper-slide"
+					style="background-image: url('./assets/img/classroom3.jpg')"
+				></div>
+			</div>
+
+			<!-- Hero Letter -->
+			<div
+				class="hero-content"
+				style="
+					background-image: url('https://wordpress.vecurosoft.com/knirpse/wp-content/uploads/2022/01/hcontent-bg.png');
+				"
+			>
+				<p>
+					Learn
+					<i
+						class="ri-circle-fill"
+						style="color: var(--theme-color); font-size: 0.5rem"
+					></i>
+					Play
+				</p>
+				<h2>We Care Of</h2>
+				<h1>Children</h1>
+				<h2 style="margin-bottom: 0.5rem">start with us</h2>
+				<a>Book a visit</a>
+			</div>
+
+			<!-- Hero After -->
+			<div
+				class="hero-swiper-after"
+				style="background-image: url('./assets/img/hero-after.png')"
+			></div>
+			<!-- If we need pagination -->
+			<div class="swiper-pagination"></div>
+		</section>
+
+		<!-- Serivice We Provide Section -->
+		<section class="service-section padding-1">
+			<!-- Heading -->
+			<div class="heading">
+				<p>Service We Provide</p>
+				<h2>
+					Providing Good Quality <br />
+					For Your Loving Kids
+				</h2>
+			</div>
+
+			<div class="container service-card-wrapper">
+				<div class="service-card">
+					<div class="service-img">
+						<img src="./assets/img/bus.svg" alt="" />
+					</div>
+					<div class="service-info">
+						<p class="title">Bus Service</p>
+						<p class="desc">
+							ubiquitous models rather than parallel initiatives. Seamlessly
+							reinvent success.
+						</p>
+					</div>
+				</div>
+				<div class="service-card">
+					<div class="service-img">
+						<img src="./assets/img/ball.svg" alt="" />
+					</div>
+					<div class="service-info">
+						<p class="title">Bus Service</p>
+						<p class="desc">
+							ubiquitous models rather than parallel initiatives. Seamlessly
+							reinvent success.
+						</p>
+					</div>
+				</div>
+				<div class="service-card">
+					<div class="service-img">
+						<img src="./assets/img/music.svg" alt="" />
+					</div>
+					<div class="service-info">
+						<p class="title">Bus Service</p>
+						<p class="desc">
+							ubiquitous models rather than parallel initiatives. Seamlessly
+							reinvent success.
+						</p>
+					</div>
+				</div>
+				<div class="service-card">
+					<div class="service-img">
+						<img src="./assets/img/girl.svg" alt="" />
+					</div>
+					<div class="service-info">
+						<p class="title">Bus Service</p>
+						<p class="desc">
+							ubiquitous models rather than parallel initiatives. Seamlessly
+							reinvent success.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Why SLD -->
+		<section class="more-about-us-section padding-1"
+		>
+			<!-- mau = more about us -->
+			<div class="container mau-wrapper">
+				<div class="slider-section swiper swiper-mau">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide">
+							<img src="./assets/img/shape-slide-1.png" alt="" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./assets/img/shape-slide-2.png" alt="" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./assets/img/shape-slide-3.png" alt="" />
+						</div>
+					</div>
+
+					<!-- navigation buttons -->
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+				<div class="content-section">
+					<p>About us</p>
+					<p class="title">Why SLD?</p>
+					<p class="desc">
+						Join SLD Language Center if you are looking for passionate teachers who will understand you more, who will care for you sincerely, and who will put extra efforts to help you learn English efficiently. At SLD, the teachers with international qualifications understand the local education systems and the challenges of studying abroad or work environment very well, so they know the best ways to remedy the weaknesses you may have, foster essential skills you will need for academic or work challenges and forge excellence in you to be successful in your future. Our small-size classes ensure you to have full attention and help from the teachers that you will make the most of your time and resources. Moreover, by studying at SLD you will begin to appreciate “learning” as important as the air we need to breathe because it is a way of life that opens up our deeper understanding of the world around us and our own life. Also, you will continue to learn throughout your life because learning is a crucial endeavor for rebuilding the country’s education system and a sure step for reforming the country for every aspect of life for the better. By joining SLD family, you will find friends who will never stop learning and sharing. If you are a foreigner, studying at SLD will help you learn not just English, but also understand Myanmar people and their culture from interacting with our kind local teachers and students from different corners of the country.
+					</p>
+					<a href="#">Learn More</a>
+				</div>
+				
+			</div>
+		</section>
+
+		
+
+		<!-- Approvement SEction -->
+		<section class="app-section padding-1">
+			<div class="container app-wrapper">
+				<div class="app-card">
+					<div class="logo">
+						<i class="ri-presentation-fill"></i>
+					</div>
+					<p class="number">100</p>
+					<p class="title">Qualified Teacher</p>
+				</div>
+
+				<div class="app-card">
+					<div class="logo">
+						<i class="ri-award-fill"></i>
+					</div>
+					<p class="number">30</p>
+					<p class="title">Years of Experiences</p>
+				</div>
+
+				<div class="app-card">
+					<div class="logo">
+						<i class="ri-team-line"></i>
+					</div>
+					<p class="number">550</p>
+					<p class="title">Students Enrolled</p>
+				</div>
+
+				<div class="app-card">
+					<div class="logo">
+						<i class="ri-trophy-line"></i>
+					</div>
+					<p class="number">70</p>
+					<p class="title">Groups</p>
+				</div>
+			</div>
+			<div class="app-section-after">
+				<img src="./assets/img/main-shape-after.png" alt="" />
+			</div>
+		</section>
+
+		<!-- Classess Section -->
+		<section class="classess-section padding-1" style="background-color: white">
+			<div class="heading">
+				<p>On Going Classes</p>
+				<h2>
+					Take The Classes And <br />
+					Start Learning From Today
+				</h2>
+			</div>
+			<div class="container">
+				<div class="class_cards_wrapper swiper swiper-classes">
+				<div class="swiper-wrapper">
+					<div class="class_card swiper-slide">
+						<div class="img">
+							<div class="img_wrap">
+								<img src="./assets/img/class-1 (1).jpg" alt="alt" />
+							</div>
+							<span class="price_tag">$20</span>
+						</div>
+						<div class="class_content">
+							<h2 class="hov-text-theme">Language Class</h2>
+							<p class="desc">
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Quidem, ex.
+							</p>
+							<ul class="details">
+								<li>
+									<p>Age:</p>
+									<span class="hov-text-theme">2 - 4 yrs</span>
+								</li>
+								<li>
+									<p>Time:</p>
+									<span class="hov-text-theme">9 - 11 pm</span>
+								</li>
+								<li>
+									<p>Capacity:</p>
+									<span class="hov-text-theme">35 Kids</span>
+								</li>
+							</ul>
+							<a class="read_more" href="#">Read More</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- navigation buttons -->
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+			</div>
+		</section>
+
+		<!-- More About Us Section -->
+		<section class="more-about-us-section padding-1">
+			<!-- mau = more about us -->
+			<div class="container mau-wrapper">
+				<div class="content-section">
+					<p>More about us</p>
+					<p class="title">SLD Vision-Mission Statement</p>
+					<p class="desc">
+						As a language school, SLD seeks to contribute in the country’s goal to rebuild the education system by training young students, especially those are preparing for higher education to be future leaders, with strong academic English foundations and skills.
+						SLD aims to contribute to the developmental goals of the nation by helping young professions with English skills that they need to be more efficient and successful in their chosen fields.
+						SLD aims to enable young people to be critical thinkers who would uphold not just intellectual virtues, but also humanistic and moral values.
+
+					</p>
+					<a href="#">Learn More</a>
+				</div>
+				<div class="slider-section swiper swiper-mau">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide">
+							<img src="./assets/img/shape-slide-1.png" alt="" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./assets/img/shape-slide-2.png" alt="" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./assets/img/shape-slide-3.png" alt="" />
+						</div>
+					</div>
+
+					<!-- navigation buttons -->
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Step Section -->
+
+		<section class="step-section padding-1">
+			<div class="step-before">
+				<img src="./assets/img/before-shape-2.png" alt="before-shape-2" />
+			</div>
+			<div class="step-cloud">
+				<img src="./assets/img/cloud-1.png" alt="before-shape-2" />
+			</div>
+			<div class="container step-card-wrapper">
+				<div class="step-card">
+					<div class="heading">
+						<div class="logo">
+							<i class="ri-presentation-line"></i>
+						</div>
+						<h2 class="hov-text-white">Expert Instructor</h2>
+					</div>
+					<p class="desc hov-text-white">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+						aliquam ullam cumque aliquid maiores necessitatibus!
+					</p>
+					<span class="step-tag">01</span>
+				</div>
+				<div class="step-card">
+					<div class="heading">
+						<div class="logo">
+							<i class="ri-book-3-line"></i>
+						</div>
+						<h2 class="hov-text-white">Known Everything</h2>
+					</div>
+					<p class="desc hov-text-white">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+						aliquam ullam cumque aliquid maiores necessitatibus!
+					</p>
+					<span class="step-tag">02</span>
+				</div>
+				<div class="step-card">
+					<div class="heading">
+						<div class="logo">
+							<i class="ri-team-line"></i>
+						</div>
+						<h2 class="hov-text-white">Well Children</h2>
+					</div>
+					<p class="desc hov-text-white">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+						aliquam ullam cumque aliquid maiores necessitatibus!
+					</p>
+					<span class="step-tag">03</span>
+				</div>
+			</div>
+			<div class="step-after">
+				<img src="./assets/img/after-shape-2.png" alt="after-shape" />
+			</div>
+			<div class="step-cloud-after">
+				<img src="./assets/img/cloud-2-1.png" alt="after-shape" />
+			</div>
+		</section>
+
+		<!-- Appointment Us Section -->
+		<section class="appointment-section padding-1">
+			<div class="container wrapper">
+				<form action="">
+					<input type="text" placeholder="Gurdian Name" />
+					<input type="number" placeholder="Phone Number" />
+					<input type="email" placeholder="Email" />
+					<input type="text" placeholder="Chile Name" />
+					<input type="text" placeholder="Age Of Child" />
+					<textarea name="messsage" placeholder="Message"></textarea>
+					<button type="submit" class="primary-button">Submit</button>
+				</form>
+				<div class="content">
+					<p>Make Appointments</p>
+					<h2>Join Our Fun With Cutie Kids</h2>
+					<p>
+						Formulate innovative web-readiness and installed base ideas.
+						Distinctively integrate high-payoff paradigms without next
+						generation systems disseminate holistic e-services through customer
+						directed expertise.
+					</p>
+					<a class="outline-button">Learn More</a>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Staff Section -->
+		<section class="staff-section padding-1">
+			<div class="container">
+				<div class="section-heading">
+					<p>Our Expert Staff</p>
+					<h2>Most Dedicated Staff For <br /> Your Child</h2>
+				</div>
+				<div class="teacher-cards-wrapper swiper swiper-staffs">
+					<div class="swiper-wrapper">
+						
+						<div class="teacher-card swiper-slide">
+							<div class="t-img">
+								<img src="./assets/img/t-1.jpg" alt="teacher">
+								<div class="t-info">
+									<p>
+										Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda exercitationem qui tempore inventore quas. Mollitia incidunt accusantium optio aliquam. Optio, nobis! Cupiditate illum aliquid eligendi saepe neque facilis, doloremque solut.
+									</p>
+									<ul class="social-logos">
+										<li>	
+											<a href=""><i class="ri-facebook-circle-fill"></i></a>
+										</li>
+										<li>
+											<a href=""><i class="ri-twitter-fill"></i></a>
+										</li>
+										<li>
+											<a href=""><i class="ri-pinterest-fill"></i></a>
+										</li>
+										<li>
+											<a href=""><i class="ri-linkedin-box-fill"></i></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="t-name">
+								<a class="name">Sophie Su</h3>
+								<p>Kids Specialists</p>
+							</div>
+						</div>	
+
+						<div class="teacher-card swiper-slide">
+							<div class="t-img">
+								<img src="./assets/img/t-2.jpg" alt="teacher">
+								<div class="t-info">
+									<p>
+										Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda exercitationem qui tempore inventore quas. Mollitia incidunt accusantium optio aliquam. Optio, nobis! Cupiditate illum aliquid eligendi saepe neque facilis, doloremque solut.
+									</p>
+									<ul class="social-logos">
+										<li>	
+											<a href=""><i class="ri-facebook-circle-fill"></i></a>
+										</li>
+										<li>
+											<a href=""><i class="ri-twitter-fill"></i></a>
+										</li>
+										<li>
+											<a href=""><i class="ri-pinterest-fill"></i></a>
+										</li>
+										<li>
+											<a href=""><i class="ri-linkedin-box-fill"></i></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="t-name">
+								<a class="name">Hana Chel</h3>
+								<p>Kids Specialists</p>
+							</div>
+						</div>	
+
+						<div class="teacher-card swiper-slide">
+							<div class="t-img">
+								<img src="./assets/img/t-3.jpg" alt="teacher">
+								<div class="t-info">
+									<p>
+										Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda exercitationem qui tempore inventore quas. Mollitia incidunt accusantium optio aliquam. Optio, nobis! Cupiditate illum aliquid eligendi saepe neque facilis, doloremque solut.
+									</p>
+									<ul class="social-logos">
+										<li>	
+											<a href=""><i class="ri-facebook-circle-fill"></i></a>
+										</li>
+										<li>
+											<a href=""><i class="ri-twitter-fill"></i></a>
+										</li>
+										<li>
+											<a href=""><i class="ri-pinterest-fill"></i></a>
+										</li>
+										<li>
+											<a href=""><i class="ri-linkedin-box-fill"></i></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="t-name">
+								<a class="name">Josh Min</h3>
+								<p>Kids Specialists</p>
+							</div>
+						</div>	
+						
+					</div>
+				</div>
+				<!-- navigation buttons -->
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+			</div>
+		</section>
+
+		<!-- Join Our New SEction -->
+		<section class="new_session padding-1">
+			<div class="container">
+				<div class="section-heading">
+					<p>Join Our New Session</p>
+					<h2>
+						Call To Enroll Your Child<br />
+						<a href="tel:09444008744" style="font-size: inherit; font-weight: inherit; color: var(--theme-color-hover)">09444008744</a>
+					</h2>
+					<button class="primary-button">Learn More</button>
+				</div>
+			</div>
+			<div class="app-section-after">
+				<img src="./assets/img/main-shape-after.png" alt="" />
+			</div>
+		</section>
+
+		<!-- Latest News Post Section -->
+		<section class="latest_news padding-1">
+			<div class="container">
+				<div class="section-heading">
+					<p> Latest News Posts</p>
+					<h2>Get Know Our Weekly Update News</h2>
+				</div>
+				<div class="article_wrapper swiper artilce_swiper">
+					<div class="swiper-wrapper">
+						<div class="article_card swiper-slide">
+							<div class="artilce_img">
+								<img src="./assets/img/blog-big-1-307x220.jpg" alt="">
+							</div>
+							<div class="article_content">
+								<div class="article_info">							
+										<i class="ri-calendar-todo-line"></i>
+										<p>8 January 2022</p>								
+								</div>
+								<h2>
+									What Can tracks teack kids preschool
+								</h2>
+								<hr />
+								<a href="">
+									Read More
+								</a>
+							</div>
+
+						</div>
+						<div class="article_card swiper-slide">
+							<div class="artilce_img">
+								<img src="./assets/img/blog-big-1-307x220.jpg" alt="">
+							</div>
+							<div class="article_content">
+								<div class="article_info">							
+										<i class="ri-calendar-todo-line"></i>
+										<p>8 January 2022</p>								
+								</div>
+								<h2>
+									What Can tracks teack kids preschool
+								</h2>
+								<hr />
+								<a href="">
+									Read More
+								</a>
+							</div>
+
+						</div>
+						<div class="article_card swiper-slide">
+							<div class="artilce_img">
+								<img src="./assets/img/blog-big-1-307x220.jpg" alt="">
+							</div>
+							<div class="article_content">
+								<div class="article_info">							
+										<i class="ri-calendar-todo-line"></i>
+										<p>8 January 2022</p>								
+								</div>
+								<h2>
+									What Can tracks teack kids preschool
+								</h2>
+								<hr />
+								<a href="">
+									Read More
+								</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<!-- navigation buttons -->
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+			</div>
+		</section>
+
+		<footer class="padding-1" style="background-color: rgba(0, 0, 0, 0.898);
+		position: relative;
+		">
+			<div class="container footer">
+				<div>
+				<div class="logo">
+					<img src="./assets/img/logo-white.svg" alt="">
+				</div>
+				<p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores repudiandae, doloremque tempora porro architecto, voluptates commodi, necessitatibus ab possimus fuga non. Fugiat nam nisi nihil, minima libero necessitatibus veritatis culpa?</small></p>
+				<ul class="social-logos">
+										<li>	
+											<a href=""><i class="ri-facebook-circle-fill"></i></a>
+										</li>
+										<li>
+											<a href=""><i class="ri-twitter-fill"></i></a>
+										</li>
+										<li>
+											<a href=""><i class="ri-pinterest-fill"></i></a>
+										</li>
+										<li>
+											<a href=""><i class="ri-linkedin-box-fill"></i></a>
+										</li>
+									</ul>
+			</div>
+			<div>
+				<h3>
+					Details Info
+				</h3>
+				<ul>
+					<li>
+						<a href="">Home</a>
+					</li>
+					<li>
+						<a href="">Classes</a>
+					</li>
+					<li>
+						<a href="">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h3>
+					Latest News
+				</h3>
+				<ul>
+					<li>
+						<div style="display: flex; column-gap: 1.2rem;">
+							<img src="./assets/img/class-1.jpg" style="width: 80px; height: 80px; border-radius: 12px; object-fit: cover;" alt="">
+							<a><strong>What can tracks teach kids Preschool</strong></a>
+						</div>
+					</li>
+					<li>
+						<div style="display: flex; column-gap: 1.2rem;">
+							<img src="./assets/img/class-1.jpg" style="width: 80px; height: 80px; border-radius: 12px; object-fit: cover;" alt="">
+							<a><strong>What can tracks teach kids Preschool</strong></a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h3>
+					Contact
+				</h3>
+				<ul>
+					
+                        
+						
+                        
+					<li>
+                                
+								<p>
+									<i class="ri-map-pin-line"></i>3556 Hartford Way Vlg, Mount Pleasant, SC, 29466, Australia.
+								</p>
+					</li>
+					<li>
+                                
+								<p>
+								<i class="ri-phone-line"></i>	<a href="tel:09444008744">09444008744</a>
+								</p>
+					</li>
+					<li>
+                                
+								<p>
+								<i class="ri-mail-send-line"></i>	sld.edu.mm
+								</p>
+					</li>
+				</ul>
+			</div>
+			</div>
+			<div style="background-color: rgba(14, 14, 14, 0.66);
+			color: var(--text-color);
+			text-align: center;
+			padding: .6rem;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			z-index: 1;
+			width: 100%;">
+				Copyright 2023 SDL. All Rights Reserved by <a href="#">Ethical Digit</a>
+			</div>
+		</footer>
+		<script src="./assets//js/swiper-bundle.min.js"></script>
+		<script src="./assets/js/script.js"></script>
+	</body>
+</html>
