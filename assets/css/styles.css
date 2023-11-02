@@ -435,7 +435,7 @@ textarea {
 	width: 100%;
 	max-width: 1800px;
 	margin: 40px auto;
-	padding: 0 80px;
+	padding: 0 40px;
 }
 
 .service-card-wrapper {
@@ -738,6 +738,7 @@ textarea {
 
 .class_content .details li {
 	display: block;
+	width: 50%;
 	padding: 0 1rem;
 	border-left: 1px solid var(--text-color);
 	font-size: var(--small-font-size);
