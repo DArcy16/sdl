@@ -205,6 +205,7 @@ textarea {
 
 .nav__link,
 #product_link,
+.nav__list .nav__item button,
 #customize {
 	position: relative;
 	text-transform: uppercase;
@@ -234,6 +235,7 @@ textarea {
 
 .nav__link::after,
 #product_link::after,
+.nav__list .nav__item button::after,
 #customize::after {
 	content: "";
 	position: absolute;
@@ -247,12 +249,14 @@ textarea {
 
 .nav__link:hover::after,
 #product_link:hover::after,
+.nav__list .nav__item button:hover::after,
 #customize:hover::after {
 	width: 100%;
 }
 
 .nav__link:hover,
 #product_link:hover,
+.nav__list .nav__item button:hover,
 #customize:hover {
 	color: var(--theme-color);
 }
@@ -994,8 +998,15 @@ textarea:focus {
 	font-weight: var(--font-semi-bold);
 }
 
+.teacher-cards-wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	row-gap: 2rem;
+}
+
 .teacher-card {
-	width: 33%;
+	width: 32%;
 }
 
 .teacher-card .t-img {
