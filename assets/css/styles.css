@@ -206,7 +206,8 @@ textarea {
 .nav__link,
 #product_link,
 .nav__list .nav__item button,
-#customize {
+#customize,
+#faq {
 	position: relative;
 	text-transform: uppercase;
 	letter-spacing: 1.8px;
@@ -258,7 +259,8 @@ textarea {
 .nav__link::after,
 #product_link::after,
 .nav__list .nav__item button::after,
-#customize::after {
+#customize::after,
+#faq::after {
 	content: "";
 	position: absolute;
 	background-color: var(--theme-color);
@@ -272,14 +274,16 @@ textarea {
 .nav__link:hover::after,
 #product_link:hover::after,
 .nav__list .nav__item button:hover::after,
-#customize:hover::after {
+#customize:hover::after,
+#faq:hover::after {
 	width: 100%;
 }
 
 .nav__link:hover,
 #product_link:hover,
 .nav__list .nav__item button:hover,
-#customize:hover {
+#customize:hover,
+#faq:hover {
 	color: var(--theme-color);
 }
 
@@ -1579,6 +1583,21 @@ textarea:focus {
 	object-fit: cover;
 }
 
+/* FAQ */
+.faq-section {
+	padding: 60px 180px;
+}
+
+.faq-section .faq-card {
+	background-color: var(--body-color);
+	padding: 3rem;
+	border-radius: 0 12px 0 12px;
+	margin-top: 5rem;
+}
+
+.faq-section .faq-card h2 {
+	margin-bottom: 1.2rem;
+}
 /* Footer */
 .footer {
 	display: flex;
@@ -1633,6 +1652,8 @@ footer ul li div a:hover {
 	color: var(--theme-color-hover);
 	cursor: pointer;
 }
+
+
 
 /* Navigation for mobile devices */
 @media screen and (max-width: 1023px) {
